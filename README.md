@@ -36,29 +36,28 @@ Tools used
   5. After Loading the dataset to our database management, it was previewed, the duplicates were removed using distinct and a view was created to work with the clean data.
 
   ### Exploratory Data Analysis
-
+---
   EDA invloved exploring the sales data to answer key questions, such as:
 
   - The most popular subscription
   - The average subscription duration
   - Total number of customers from each region
-  - Customers who canceled their subscription within 6 months
-  - Customers with subscription longer than 12 months
-  - Total revenue by subscription type
+  - Total revenue from each subscription type
   - Top 3 regions by subscription cancelation
   - Total number of active and canceled subscription
 
 # Data Analysis
 
 ### Excel Analysis
-
+---
 - Subscription trend: Pivot table was used to find subscription pattern by summarizing Subscription start by count of canceled,Region by count of Subscription type, count of subscriber for each subscription type.
-- New Columns( Subscription duration): Calculated the time difference between subscription start and subscription end for each subscriber.
-- Revenue and loss:
+- New Columns( Subscription duration): Calculated the time difference between subscription start and subscription end for each subscriber.Average subscription duration. 
+- Revenue and loss:To get an insight of revenue made overtime and loss incurred. 
 Region by sum of revenue, Subscription type by count of canceled,subscription type by total sum of revenue.
 - The most popular subscription type was gotten by analyzing the sum of revenue gotten from each subscription type and the by count of the subscription types scubscribed to.
 
   ### SQL Analysis
+  ---
 After Loading the dataset to our database management, it was previewed, the duplicates were removed using distinct and a view was created to work with the clean data.
   
   We query the database to analyse the dataset and the following analyzes were gotten:
