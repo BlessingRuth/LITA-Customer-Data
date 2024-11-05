@@ -48,8 +48,19 @@ Tools used
   - Top 3 regions by subscription cancelation
   - Total number of active and canceled subscription
 
-### Data Analysis
-- We did some 
+# Data Analysis
+
+### Excel Analysis
+
+- Subscription trend: Pivot table was used to find subscription pattern by summarizing Subscription start by count of canceled,Region by count of Subscription type, count of subscriber for each subscription type.
+- New Columns( Subscription duration): Calculated the time difference between subscription start and subscription end for each subscriber.
+- Revenue and loss:
+Region by sum of revenue, Subscription type by count of canceled,subscription type by total sum of revenue.
+- The most popular subscription type was gotten by analyzing the sum of revenue gotten from each subscription type and the by count of the subscription types scubscribed to.
+
+  ### SQL Analysis
+  
+
 
   
 
