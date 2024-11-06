@@ -51,7 +51,7 @@ Tools used
 ### Excel Analysis
 ---
 - Subscription trend: Pivot table was used to find subscription pattern by summarizing Subscription start by count of canceled,Region by count of Subscription type, count of subscriber for each subscription type.
-- New Columns( Subscription duration): Calculated the time difference between subscription start and subscription end for each subscriber.Average subscription duration. 
+- New Columns( Subscription duration): Calculated the time difference between subscription start and subscription end for each subscriber.which was gotten Average subscription duration. 
 - Revenue and loss:To get an insight of revenue made overtime and loss incurred. 
 Region by sum of revenue, Subscription type by count of canceled,subscription type by total sum of revenue.
 - The most popular subscription type was gotten by analyzing the sum of revenue gotten from each subscription type and the by count of the subscription types scubscribed to.
@@ -59,23 +59,23 @@ Region by sum of revenue, Subscription type by count of canceled,subscription ty
   ### SQL Analysis
   ---
 After Loading the dataset to our database management, it was previewed, the duplicates were removed using distinct and a view was created to work with the clean data.
+Some of the interesting codes we worked with in analysing our data are:
+
+     
+    
   create view VW_Customer_Data
 as
 select distinct * from [dbo].[LITA Capstone Customer Data]
 
-delete from [dbo].[LITA Capstone Customer Data]
-where CustomerID = 'null'
-
 select * from [dbo].[VW_Customer_Data]
 
-delete from [dbo].[VW_Customer_Data]
-where region = 'null' 
+### 1.Total number of customers from each region
 
-----Total number of customers from each region---
-
+\\\
 select count(CustomerID) as No_ofcustomers, Region
 from [dbo].[VW_Customer_Data]
 group by region
+///
 
 ---- Most popular subcription type by number of customer---
 
@@ -152,11 +152,7 @@ group by SubscriptionType
   6. Total revenue by subscription type
   7. Top 3 regions by subscription cancelation
   8. Total number of active and canceled subscriptions
-  9. Most canceled subscription type.
-
-     Some of the interesting codes we worked with:
-     ''' sql
-     select *
+  9. Most canceled subscription 
      '''
      
 
