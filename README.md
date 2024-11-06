@@ -71,89 +71,80 @@ select * from [dbo].[VW_Customer_Data]
 
 ### 1.Total number of customers from each region
 
-\\\
+```
 select count(CustomerID) as No_ofcustomers, Region
 from [dbo].[VW_Customer_Data]
 group by region
-///
+```
 
----- Most popular subcription type by number of customer---
-
+### 2.Most popular subcription type by number of customer
+```
 select SubscriptionType,  count (CustomerID)
 from [dbo].[VW_Customer_Data]
 group by SubscriptionType
+```
 
-----Customers whose subscription got canceled within 6 months---
-
+### 3.Customers whose subscription got canceled within 6 months---
+```
 select customerId, Canceled
 from [dbo].[VW_Customer_Data]
 where Canceled = 0 and Datediff(Month, Subscriptionstart, SubscriptionEnd) <=6
+```
 
-
----Average subscription duration for all customers---
-
+### 4.Average subscription duration for all customers---
+```
 select Avg(subcription_duration), CustomerID
  from [dbo].[VW_Customer_Data]
 group by  customerid
+```
 
-
----Customers with subscription longer than 12 months---
-
+### 5.Customers with subscription longer than 12 months---
+```
 select customerId,subcription_duration 
 from [dbo].[VW_Customer_Data]
 where subcription_duration >365
-
----Calculate Total Revenue by Subscription type---
-
+```
+### 6.Calculate Total Revenue by Subscription type---
+```
 select sum(Revenue), SubscriptionType
 from [dbo].[VW_Customer_Data]
 group by subsription
+```
 
 
-
----Top 3 Regions by Subcription Cancellation---
-
+### 7.Top 3 Regions by Subcription Cancellation---
+```
 select Top 3 count(canceled), region
 from [dbo].[VW_Customer_Data]
 where Canceled = 0
 group by region
 order by 1 desc
-
----Total number of active and canceled subscriptions----
-
+```
+### 8.Total number of active and canceled subscriptions----
+```
 select count(canceled) 
 from [dbo].[VW_Customer_Data]
 where canceled = 0 
-
+```
 select count(canceled) 
 from[dbo].[VW_Customer_Data]
 where canceled = 1
 
 
 
----- Most canceled subcription type by number of customer--
-
+### 9. Most canceled subcription type by number of customer--
+```
 select SubscriptionType,count (Canceled)
 from [dbo].[VW_Customer_Data]
 where Canceled = 0
 group by SubscriptionType
-
+```
 select SubscriptionType,  count (CustomerID)
 from [dbo].[VW_Customer_Data]
 group by SubscriptionType
 
 
-  We query the database to analyse the dataset and the following analyzes were gotten:
-  1. The total number of customers in each region
-  2. The most popular subscription type
-  3. subscriptions that were canceled within 6 months
-  4. Average Subscription duration
-  5. Subscription duration longer than 6 months
-  6. Total revenue by subscription type
-  7. Top 3 regions by subscription cancelation
-  8. Total number of active and canceled subscriptions
-  9. Most canceled subscription 
-     '''
+  
      
 
 
