@@ -155,7 +155,8 @@ group by SubscriptionType
 
 ![Screenshot 2024-11-07 171816](https://github.com/user-attachments/assets/20aa4953-b687-417b-b466-7f6af48c1c77)
 
-  
+  ![Screenshot 2024-11-07 164935](https://github.com/user-attachments/assets/9be9a01c-5343-47b5-9579-d9aee9851e58)
+
 
 
 
