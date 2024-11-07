@@ -64,15 +64,7 @@ Region by sum of revenue, Subscription type by count of canceled,subscription ty
   ### SQL Analysis
   ---
 After Loading the dataset to our database management, it was previewed, the duplicates were removed using distinct and a view was created to work with the clean data.
-Some of the interesting codes we worked with in analysing our data are:
-
-     
-    
-  create view VW_Customer_Data
-as
-select distinct * from [dbo].[LITA Capstone Customer Data]
-
-select * from [dbo].[VW_Customer_Data]
+Some of the interesting codes we worked with in analysing our data are:  
 
 ### 1.Total number of customers from each region
 
