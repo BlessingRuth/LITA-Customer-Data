@@ -150,8 +150,10 @@ group by SubscriptionType
 
 
   
-     
+     ![Screenshot 2024-11-07 171816](https://github.com/user-attachments/assets/e58747e4-8995-4e2b-9b21-f9e2f4fe020f)
 
+
+![Screenshot 2024-11-07 171816](https://github.com/user-attachments/assets/20aa4953-b687-417b-b466-7f6af48c1c77)
 
   
 
