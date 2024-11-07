@@ -56,6 +56,9 @@ Tools used
 Region by sum of revenue, Subscription type by count of canceled,subscription type by total sum of revenue.
 - The most popular subscription type was gotten by analyzing the sum of revenue gotten from each subscription type and the by count of the subscription types scubscribed to.
 
+  ![Screenshot 2024-11-06 130834](https://github.com/user-attachments/assets/d08a6774-db5b-478b-a032-0a7c14510acf)
+
+
   ### SQL Analysis
   ---
 After Loading the dataset to our database management, it was previewed, the duplicates were removed using distinct and a view was created to work with the clean data.
