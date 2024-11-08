@@ -140,14 +140,22 @@ select SubscriptionType,  count (CustomerID)
 from [dbo].[VW_Customer_Data]
 group by SubscriptionType
 
-
-  
-     ![Screenshot 2024-11-07 171816](https://github.com/user-attachments/assets/e58747e4-8995-4e2b-9b21-f9e2f4fe020f)
-
+### Visualization analysis with powerbi dashboard
 
 ![Screenshot 2024-11-07 171816](https://github.com/user-attachments/assets/20aa4953-b687-417b-b466-7f6af48c1c77)
 
   ![Screenshot 2024-11-07 164935](https://github.com/user-attachments/assets/9be9a01c-5343-47b5-9579-d9aee9851e58)
+
+### Insights
+
+- The total revenue made is "$67,540,175"
+- The count of total subscription is "33,788". we realized some subscriprions were canceled while some were retained and the total number of subscription that is active is 18613 while the total number of canceled subscription is "15,175". 45% of the subscription were canceled while 55% of the subscription was retained which isnt a good perfomance.For over 40% of the subscribers to cancel their subscriptions, it shows that a lot of people were displeased with the service which isnt a good thing for the company.
+- Revenue made by each subscription type: Basic made $33,776,735, Premium made 16,899,064 while standard made 16,864,376. This ananlysis shows that Basic made the highest revenue, with premium and standard following behind by a huge gap. This shows that a lot of subscribers went for the basic because it was afordable.
+- Revenue made by each  region: East made $16,958,763( 25%), South: $16,899,064 (25%), West $16,864,376 (24.9%), North: $16,817972(24.9%).
+ which shows all the regions are in good standing and they did well with no region lagging behind another.
+- After analyzing the data, we deduced that 45% subscriptions were canceled with 55% being retained
+- Basic made up 33.3%, Premimum made up 33.3% and Standard made up 33.2% of canceled subscription. Even though the three subscription type had almost the same ratio of canceled subscription, the ratio of the subcribed customers is still different.
+
 
 
 
