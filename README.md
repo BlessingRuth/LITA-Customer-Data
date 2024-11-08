@@ -8,7 +8,7 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
 - [Insights](#insights)
-- [Recommendations](recommendations)
+- [Recommendations](#recommendations)
 
 
 
