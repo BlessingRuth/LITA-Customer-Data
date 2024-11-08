@@ -7,6 +7,8 @@
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
+- [Insights](#insights)
+- [Recommendations](recommendations)
 
 
 
@@ -155,7 +157,18 @@ group by SubscriptionType
  which shows all the regions are in good standing and they did well with no region lagging behind another.
 - After analyzing the data, we deduced that 45% subscriptions were canceled with 55% being retained
 - Basic made up 33.3%, Premimum made up 33.3% and Standard made up 33.2% of canceled subscription. Even though the three subscription type had almost the same ratio of canceled subscription, the ratio of the subcribed customers is still different.
+- The total rate of Basic subscription type canceled subscription is 30% while 70% was retained, The total rate of Premium subscription type canceled is 60% while 40% was retained, The total rate of Standard subscription type canceled subscription is 60% while 40% was retained.The rate at which both premium and standard subscription is being canceled is quite alarming and needs to be reviewed immediately to avoid being at a disadvantage with their competitor.Most subscribers of both Premium and Standard subscription type subscribed to it because it is believed to have more quality package compare to basic since it is more expensive but with the rate at which it is being canceled, it shows that the subscribers are not getting what they believed they subscribed to. Also, the 30% rate of canceled basic subscription type is still not off the hook, it needs to be controlled. 
+- The total rate of canceled subscription in the East is 0%, North is 60%, South is 60% while West is 60%. This shows that something is being done right in the East that hasnt been discovers by other regions as almost all the retained subscribers are from the East.
 
+  ### Recommendations
+- A lot of of rebranding and repackaging should be done to the subscriptions to make customers retain their subscriptions more
+- There  should also be a rebranding among the staff to give room for new ideas to yield different results.
+- Both Premium and Standard subscription type should be upgraded to give people quality for their money
+- What is being done right in the East should be observed and implemented in other regions.
+- Advertisement should be invested heavily into to make subscribers and targeted subscribers know that the servicw has been rebranded.
+-  Opinion of subscribers should be gotten through forms or questionaires to know how to be better. 
+  
+  
 
 
 
