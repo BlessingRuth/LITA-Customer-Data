@@ -9,12 +9,28 @@
 - [Data Analysis](#data-analysis)
 - [Insights](#insights)
 - [Recommendations](#recommendations)
+- [Data description](#data-description)
 
 
 
 ### Project Overview
 ---
 This project analyzes customer data for a subscription service to identify segments and trends in behavior, subscription types, and cancellation patterns. The findings are presented in a Power BI dashboard for easy visualization and decision-making.
+
+### Data Descriptions 
+
+The dataset includes the following variables:
+
+-CustomerID : A uniques identification of each customer
+
+-Customer Name : Names of the customers
+-Region : The regions where the subscriptions occured
+-Subscription Type : Type of subscription purchased
+-Subscription Start: The date of subscription
+-Subscription End : the date of subscription expiration
+-Canceled : If the subscription was canceled or not
+-Revenue : The revenue generated from each purchased
+-Subscription Duration : The duration of each purchased subscription
 
 ###Data Sources
 ---
