@@ -160,6 +160,7 @@ group by SubscriptionType
 - The total rate of Basic subscription type canceled subscription is 30% while 70% was retained, The total rate of Premium subscription type canceled is 60% while 40% was retained, The total rate of Standard subscription type canceled subscription is 60% while 40% was retained.The rate at which both premium and standard subscription is being canceled is quite alarming and needs to be reviewed immediately to avoid being at a disadvantage with their competitor.Most subscribers of both Premium and Standard subscription type subscribed to it because it is believed to have more quality package compare to basic since it is more expensive but with the rate at which it is being canceled, it shows that the subscribers are not getting what they believed they subscribed to. Also, the 30% rate of canceled basic subscription type is still not off the hook, it needs to be controlled. 
 - The total rate of canceled subscription in the East is 0%, North is 60%, South is 60% while West is 60%. This shows that something is being done right in the East that hasnt been discovers by other regions as almost all the retained subscribers are from the East.
 
+
   ### Recommendations
 - A lot of of rebranding and repackaging should be done to the subscriptions to make customers retain their subscriptions more
 - There  should also be a rebranding among the staff to give room for new ideas to yield different results.
