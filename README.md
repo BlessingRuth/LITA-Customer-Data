@@ -42,7 +42,7 @@ Tools used
 ---
 - Excel - Data cleaning and Analysis [*Download here*](https://www.microsoft.com/en-ng/)
 - Sql Server - Data Analysis [Download here] (
-- Powerbi - Creating Reports - [Download here] (
+- Powerbi - Creating Reports - [Download here](https://powerbi.microsoft.com/desktop/)
 
   ### Data cleaning and Preparation
 ---
