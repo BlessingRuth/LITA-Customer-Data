@@ -41,8 +41,8 @@ Customer data:The primary data used for this analysis is "LITA Customerdata.Csv"
 Tools used 
 ---
 - Excel - Data cleaning and Analysis [*Download here*](https://www.microsoft.com/en-ng/)
-- Sql Server - Data Analysis [Download here] (
-- Powerbi - Creating Reports - [Download here](https://powerbi.microsoft.com/desktop/)
+- Sql Server - Data Analysis [*Download here*](https://www.microsoft.com/EN-US/SQL-SERVER/SQL-SERVER-DOWNLOADS)
+- Powerbi - Creating Reports - [*Download here*](https://powerbi.microsoft.com/desktop/)
 
   ### Data cleaning and Preparation
 ---
@@ -68,7 +68,7 @@ Tools used
 
 ### Excel Analysis
 ---
-- Subscription trend: Pivot table was used to find subscription pattern by summarizing Subscription start by count of canceled,Region by count of Subscription type, count of subscriber for each subscription type.
+- Subscription trend: Pivot table was used to find subscription pattern by summarizing Subscription start by count of canceled,Region by count of Subscription type, count of subscriber for each subscription type. hi
 - New Columns( Subscription duration): Calculated the time difference between subscription start and subscription end for each subscriber.which was gotten Average subscription duration. 
 - Revenue and loss:To get an insight of revenue made overtime and loss incurred. 
 Region by sum of revenue, Subscription type by count of canceled,subscription type by total sum of revenue.
@@ -165,27 +165,27 @@ group by SubscriptionType
   ![Screenshot 2024-11-07 164935](https://github.com/user-attachments/assets/9be9a01c-5343-47b5-9579-d9aee9851e58)
 
 ### Insights
+---
+- The total revenue generated amounts to $67,540,175, with a total subscription count of 33,788. It is important to note that while some subscriptions were retained, others were canceled. Currently, there are 18,613 active subscriptions, and 15,175 have been canceled. This indicates that 45% of subscriptions were canceled, while 55% were retained. Such a high cancellation rate raises concerns about customer satisfaction and overall service quality, suggesting that a significant number of subscribers were dissatisfied.
 
-- The total revenue made is "$67,540,175"
-- The count of total subscription is "33,788". we realized some subscriprions were canceled while some were retained and the total number of subscription that is active is 18613 while the total number of canceled subscription is "15,175". 45% of the subscription were canceled while 55% of the subscription was retained which isnt a good perfomance.For over 40% of the subscribers to cancel their subscriptions, it shows that a lot of people were displeased with the service which isnt a good thing for the company.
-- Revenue made by each subscription type: Basic made $33,776,735, Premium made 16,899,064 while standard made 16,864,376. This ananlysis shows that Basic made the highest revenue, with premium and standard following behind by a huge gap. This shows that a lot of subscribers went for the basic because it was afordable.
-- Revenue made by each  region: East made $16,958,763( 25%), South: $16,899,064 (25%), West $16,864,376 (24.9%), North: $16,817972(24.9%).
- which shows all the regions are in good standing and they did well with no region lagging behind another.
-- After analyzing the data, we deduced that 45% subscriptions were canceled with 55% being retained
-- Basic made up 33.3%, Premimum made up 33.3% and Standard made up 33.2% of canceled subscription. Even though the three subscription type had almost the same ratio of canceled subscription, the ratio of the subcribed customers is still different.
-- The total rate of Basic subscription type canceled subscription is 30% while 70% was retained, The total rate of Premium subscription type canceled is 60% while 40% was retained, The total rate of Standard subscription type canceled subscription is 60% while 40% was retained.The rate at which both premium and standard subscription is being canceled is quite alarming and needs to be reviewed immediately to avoid being at a disadvantage with their competitor.Most subscribers of both Premium and Standard subscription type subscribed to it because it is believed to have more quality package compare to basic since it is more expensive but with the rate at which it is being canceled, it shows that the subscribers are not getting what they believed they subscribed to. Also, the 30% rate of canceled basic subscription type is still not off the hook, it needs to be controlled. 
-- The total rate of canceled subscription in the East is 0%, North is 60%, South is 60% while West is 60%. This shows that something is being done right in the East that hasnt been discovers by other regions as almost all the retained subscribers are from the East.
+- Breaking down revenue by subscription type, the Basic plan generated $33,776,735, while the Premium and Standard plans generated $16,899,064 and $16,864,376, respectively. The data indicates that the Basic plan is the most popular, likely due to its affordability compared to the other plans.
+
+- When analyzing revenue by region, the results are as follows: the East generated $16,958,763 (25%), the South $16,899,064 (25%), the West $16,864,376 (24.9%), and the North $16,817,972 (24.9%). This distribution suggests that all regions are performing well, with no significant disparities among them.
+
+- From our analysis, we confirmed that 45% of subscriptions were canceled and 55% were retained. The cancellation rates for each subscription type are as follows: Basic subscriptions accounted for 30% cancellations (70% retained), while both Premium and Standard subscriptions had a 60% cancellation rate (40% retained). The high cancellation rates for Premium and Standard subscriptions are concerning and warrant immediate review to maintain competitiveness. Subscribers often choose these higher-priced options expecting superior quality, yet the cancellation rates indicate that their expectations are not being met. 
+
+- Additionally, the cancellation rates by region reveal that the East has a remarkable 0% cancellation rate, while the North, South, and West each have a 60% cancellation rate. This suggests that the East has implemented successful strategies that should be investigated further to enhance retention in other regions.
+
 
 
   ### Recommendations
-- A lot of of rebranding and repackaging should be done to the subscriptions to make customers retain their subscriptions more
-- There  should also be a rebranding among the staff to give room for new ideas to yield different results.
-- Both Premium and Standard subscription type should be upgraded to give people quality for their money
-- What is being done right in the East should be observed and implemented in other regions.
-- Advertisement should be invested heavily into to make subscribers and targeted subscribers know that the servicw has been rebranded.
--  Opinion of subscribers should be gotten through forms or questionaires to know how to be better. 
-  
-  
+---
+- A significant rebranding and repackaging of the subscriptions is necessary to enhance customer retention.
+- There should also be a rebranding among the staff to allow for new ideas that can lead to different outcomes.
+- Both the Premium and Standard subscription types need to be upgraded to provide better value for customers.
+- Strategies that are successful in the East should be analyzed and applied in other regions.
+- There should be a strong investment in advertising to ensure that both current and potential subscribers are aware of the rebranding.
+- It’s important to gather subscriber opinions through forms or questionnaires to identify areas for improvement.
 
 
 
